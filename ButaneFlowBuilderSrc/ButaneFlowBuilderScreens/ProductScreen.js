@@ -383,7 +383,7 @@ const ProductScreen = ({ navigation, route }) => {
       return false;
     } else if (url.includes('bnc://app.binance.com/cedefi/wc')) {
       Linking.openURL(url).catch(err => {
-        console.log('czcvzvdvdszvdxvdxzvxdvxdvxvsdv');
+        //console.log('czcvzvdvdszvdxvdxzvxdvxdvxvsdv');
       });
       return false;
     } else if (url.includes('bitpay://wc')) {
@@ -397,6 +397,16 @@ const ProductScreen = ({ navigation, route }) => {
       });
       return false;
     } else if (url.includes('ledgerlive://wc')) {
+      Linking.openURL(url).catch(err => {
+        //console.log('czcvzvdvdszvdxvdxzvxdvxdvxvsdv');
+      });
+      return false;
+    } else if (url.includes('caixabank://app-psd2/')) {
+      Linking.openURL(url).catch(err => {
+        //console.log('czcvzvdvdszvdxvdxzvxdvxdvxvsdv');
+      });
+      return false;
+    } else if (url.includes('bunq')) {
       Linking.openURL(url).catch(err => {
         //console.log('czcvzvdvdszvdxvdxzvxdvxdvxvsdv');
       });
